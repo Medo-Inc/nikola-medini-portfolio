@@ -5,7 +5,7 @@
   // padding-bottom: 30px;
   // padding-left: 100px;
   // padding-right: 100px;
-  @media only screen and (max-width: 992px) {
+  @media only screen and (max-width: $screen-md) {
     width: 200px;
     margin: auto;
   }
@@ -34,7 +34,7 @@
       }
 
       &.link-active > a {
-        border-bottom: 1px #328f34 solid; //$color-text-secondary: #328f34;
+        border-bottom: 1px $color-text-secondary solid;
         border-width: 1px;
       }
     }

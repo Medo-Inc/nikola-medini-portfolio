@@ -6,10 +6,21 @@ body {
   height: 100%;
 }
 
+// body {
+//   background-image: url("/assets/images/misc/gears.gif") !important;
+//   background-size: contain !important;
+//   background-repeat: no-repeat !important;
+//   background-position: right top !important;
+
+//   height: 100vh;
+//   padding: 0;
+//   margin: 0;
+// }
+
 * {
   // default font settings
   font-family: "Merriweather", serif;
-  color: #002d7e; // $color-text-primary;
+  color: $color-text-primary;
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
