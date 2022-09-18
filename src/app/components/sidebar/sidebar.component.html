@@ -1,20 +1,29 @@
-<div class="sidebar">
-  <header id="myHeader">
-    <a href="./index.html"
-      ><img src="/assets/images/misc/logo_koncept_blu.png" class="logo" alt="logo"
-    /></a>
+<header class="sticky">
+  <a [routerLink]="''"
+    ><img
+      src="/assets/images/misc/logo_koncept_blu.png"
+      class="logo"
+      alt="logo"
+  /></a>
+  <!--
+  <div class="lines"><div class="romb"></div></div> -->
 
-    <div class="lines"><div class="romb"></div></div>
-
-    <h2 class="side-text font-M pad1">Nikola Medini</h2>
-    <p class="side-text font-M green">Multimedia Designer</p>
-
-    <div class="lines"><div class="romb"></div></div>
-    <nav class="side-text">
-      <ul class="inline">
-        <li class="active"><a class="font-MI" [routerLink]="''">Work</a></li>
-        <li><a class="font-MI"[routerLink]="'about'">About</a></li>
-      </ul>
-    </nav>
-  </header>
-</div>
+  <h2 class="side-text">Medini Nikola</h2>
+  <p class="side-text s-color-secondary">Multimedia Designer</p>
+  <!--
+  <div class="lines"><div class="romb"></div></div> -->
+  <nav>
+    <ul>
+      <li [ngClass]="{ 'link-active': !isLinkActive() }">
+        <a class="s-color-secondary" [routerLink]="''">{{
+          "Work" | uppercase
+        }}</a>
+      </li>
+      <li [ngClass]="{ 'link-active': isLinkActive() }">
+        <a class="s-color-secondary" [routerLink]="'about'">{{
+          "About" | uppercase
+        }}</a>
+      </li>
+    </ul>
+  </nav>
+</header>
