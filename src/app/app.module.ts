@@ -16,6 +16,7 @@ import { PodravkaComponent } from './components/pages/podravka/podravka.componen
 import { VegetaComponent } from './components/pages/vegeta/vegeta.component';
 import { ColnaComponent } from './components/pages/colna/colna.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,3 +41,5 @@ import { ColnaComponent } from './components/pages/colna/colna.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
