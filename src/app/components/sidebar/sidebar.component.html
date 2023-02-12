@@ -9,18 +9,18 @@
   <div class="lines"><div class="romb"></div></div> -->
 
   <h2 class="side-text">Medini Nikola</h2>
-  <p class="side-text s-color-secondary">Multimedia Designer</p>
+  <p class="side-text text-secondary">Multimedia Designer</p>
   <!--
   <div class="lines"><div class="romb"></div></div> -->
   <nav>
     <ul>
       <li [ngClass]="{ 'link-active': !isLinkActive() }">
-        <a class="s-color-secondary" [routerLink]="''">{{
+        <a class="text-secondary" [routerLink]="''">{{
           "Work" | uppercase
         }}</a>
       </li>
       <li [ngClass]="{ 'link-active': isLinkActive() }">
-        <a class="s-color-secondary" [routerLink]="'about'">{{
+        <a class="text-secondary" [routerLink]="'about'">{{
           "About" | uppercase
         }}</a>
       </li>
