@@ -1,23 +1,21 @@
 <header class="sticky">
-  <a [routerLink]="''"
+  <a class="flex justify-center" [routerLink]="''"
     ><img
       src="/assets/images/misc/logo_koncept_blu.png"
       class="logo"
       alt="logo"
   /></a>
-  <!--
-  <div class="lines"><div class="romb"></div></div> -->
 
-  <h2 class="side-text">Medini Nikola</h2>
-  <p class="side-text text-secondary">Multimedia Designer</p>
-  <!--
-  <div class="lines"><div class="romb"></div></div> -->
+  <div class="lines"><div class="romb"></div></div>
+
+  <h1 class="font-bold">Medini Nikola</h1>
+  <p class="text-secondary">Multimedia Designer</p>
+
+  <div class="lines"><div class="romb"></div></div>
   <nav>
     <ul>
       <li [ngClass]="{ 'link-active': !isLinkActive() }">
-        <a class="text-secondary" [routerLink]="''">{{
-          "Work" | uppercase
-        }}</a>
+        <a class="text-secondary" [routerLink]="''">{{ "Work" | uppercase }}</a>
       </li>
       <li [ngClass]="{ 'link-active': isLinkActive() }">
         <a class="text-secondary" [routerLink]="'about'">{{
