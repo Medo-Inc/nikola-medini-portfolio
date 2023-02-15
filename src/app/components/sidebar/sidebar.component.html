@@ -1,18 +1,18 @@
-<header class="sticky">
+<header class="sticky top-0 p-4 max-w-[210px] m-auto md:ml-6 md:mt-4 text-center">
   <a class="flex justify-center" [routerLink]="''"
     ><img
       src="/assets/images/misc/logo_koncept_blu.png"
-      class="logo"
+      class="w-32"
       alt="logo"
   /></a>
 
   <div class="lines"><div class="romb"></div></div>
 
-  <h1 class="font-bold">Medini Nikola</h1>
+  <h1 class="font-bold mb-2">Medini Nikola</h1>
   <p class="text-secondary">Multimedia Designer</p>
 
   <div class="lines"><div class="romb"></div></div>
-  <nav>
+  <nav class="sidebar-nav">
     <ul>
       <li [ngClass]="{ 'link-active': !isLinkActive() }">
         <a class="text-secondary" [routerLink]="''">{{ "Work" | uppercase }}</a>
