@@ -15,6 +15,7 @@ import { HomepageComponent } from './pages/homepage/homepage.component';
 import { LavanderaComponent } from './pages/lavandera/lavandera.component';
 import { PodravkaComponent } from './pages/podravka/podravka.component';
 import { VegetaComponent } from './pages/vegeta/vegeta.component';
+import { TitleCardComponent } from './components/title-card/title-card.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { VegetaComponent } from './pages/vegeta/vegeta.component';
     PodravkaComponent,
     VegetaComponent,
     ColnaComponent,
+    TitleCardComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

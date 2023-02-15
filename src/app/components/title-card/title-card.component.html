@@ -1,0 +1,13 @@
+<div class="w-full duration-300 transition-all hover:-translate-y-2">
+  <a [routerLink]="path">
+    <img class="w-full" [src]="imageSrc" />
+  </a>
+</div>
+<a
+  class="flex flex-row items-center justify-start gap-1 my-3"
+  [routerLink]="path"
+>
+  <h1 class="block border-b-2 border-dotted border-primary">{{ title }}</h1>
+  <img class="block w-3" [src]="'assets/images/misc/arrows-right.png'" />
+</a>
+<p>{{ subtitle }}</p>
