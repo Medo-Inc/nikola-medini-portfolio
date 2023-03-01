@@ -3,7 +3,7 @@
     <!-- <img class="w-full" [src]="imageSrc" /> -->
     <div
       class="aspect-video block bg-center bg-cover"
-      style="background-image: url({{ imageSrc }});"
+      [style.background-image]="'url(' + imageSrc + ')'"
     ></div>
   </a>
 </div>

@@ -1,1 +1,7 @@
 @import "components/components";
+
+.hyperlink {
+  @apply text-secondary visited:text-green-700
+   border-secondary visited:border-green-700
+   border-b-2 border-dotted;
+}
