@@ -15,7 +15,8 @@ nav.sidebar-nav ul {
     }
 
     &.link-active > a {
-      border-bottom: 1px $color-text-secondary solid;
+      // border-bottom: 1px $color-text-secondary solid;
+      @apply border-b border-secondary border-solid
     }
   }
 }
