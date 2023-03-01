@@ -1,7 +1,9 @@
 .gears {
-  background-image: url("/assets/images/misc/gears.gif");
+  // background-image: url("/assets/images/misc/gears.gif");
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: top;
   background-size: 80%;
+  background-attachment: fixed;
+  @apply h-auto bg-none sm:bg-[url('/assets/images/misc/gears.gif')];
 }
