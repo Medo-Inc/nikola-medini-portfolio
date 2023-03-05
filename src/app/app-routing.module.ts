@@ -10,6 +10,7 @@ import { HomepageComponent } from './pages/homepage/homepage.component';
 import { LavanderaComponent } from './pages/lavandera/lavandera.component';
 import { PodravkaComponent } from './pages/podravka/podravka.component';
 import { VegetaComponent } from './pages/vegeta/vegeta.component';
+import { VirtualFactoryComponent } from './pages/virtual-factory/virtual-factory.component';
 
 const routes: Routes = [
   {
@@ -48,6 +49,10 @@ const routes: Routes = [
   {
     path: 'colna',
     component: ColnaComponent,
+  },
+  {
+    path: 'virtual-factory',
+    component: VirtualFactoryComponent,
   },
 ];
 

@@ -16,6 +16,7 @@ import { LavanderaComponent } from './pages/lavandera/lavandera.component';
 import { PodravkaComponent } from './pages/podravka/podravka.component';
 import { VegetaComponent } from './pages/vegeta/vegeta.component';
 import { TitleCardComponent } from './components/title-card/title-card.component';
+import { VirtualFactoryComponent } from './pages/virtual-factory/virtual-factory.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { TitleCardComponent } from './components/title-card/title-card.component
     VegetaComponent,
     ColnaComponent,
     TitleCardComponent,
+    VirtualFactoryComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
