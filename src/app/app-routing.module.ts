@@ -6,6 +6,7 @@ import { CocktailsComponent } from './pages/cocktails/cocktails.component';
 import { ColnaComponent } from './pages/colna/colna.component';
 import { DinersComponent } from './pages/diners/diners.component';
 import { ErsteComponent } from './pages/erste/erste.component';
+import { FunkyMotionComponent } from './pages/funky-motion/funky-motion.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { LavanderaComponent } from './pages/lavandera/lavandera.component';
 import { PodravkaComponent } from './pages/podravka/podravka.component';
@@ -53,6 +54,10 @@ const routes: Routes = [
   {
     path: 'virtual-factory',
     component: VirtualFactoryComponent,
+  },
+  {
+    path: 'funky-motion',
+    component: FunkyMotionComponent,
   },
 ];
 

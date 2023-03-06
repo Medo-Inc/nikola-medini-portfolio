@@ -17,6 +17,7 @@ import { PodravkaComponent } from './pages/podravka/podravka.component';
 import { VegetaComponent } from './pages/vegeta/vegeta.component';
 import { TitleCardComponent } from './components/title-card/title-card.component';
 import { VirtualFactoryComponent } from './pages/virtual-factory/virtual-factory.component';
+import { FunkyMotionComponent } from './pages/funky-motion/funky-motion.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { VirtualFactoryComponent } from './pages/virtual-factory/virtual-factory
     ColnaComponent,
     TitleCardComponent,
     VirtualFactoryComponent,
+    FunkyMotionComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
