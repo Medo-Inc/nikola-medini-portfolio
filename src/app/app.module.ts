@@ -18,6 +18,8 @@ import { VegetaComponent } from './pages/vegeta/vegeta.component';
 import { TitleCardComponent } from './components/title-card/title-card.component';
 import { VirtualFactoryComponent } from './pages/virtual-factory/virtual-factory.component';
 import { FunkyMotionComponent } from './pages/funky-motion/funky-motion.component';
+import { CocktailsMenuComponent } from './pages/cocktails-menu/cocktails-menu.component';
+import { OliveLabelComponent } from './pages/olive-label/olive-label.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +38,8 @@ import { FunkyMotionComponent } from './pages/funky-motion/funky-motion.componen
     TitleCardComponent,
     VirtualFactoryComponent,
     FunkyMotionComponent,
+    CocktailsMenuComponent,
+    OliveLabelComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
