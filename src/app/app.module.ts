@@ -20,6 +20,7 @@ import { VirtualFactoryComponent } from './pages/virtual-factory/virtual-factory
 import { FunkyMotionComponent } from './pages/funky-motion/funky-motion.component';
 import { CocktailsMenuComponent } from './pages/cocktails-menu/cocktails-menu.component';
 import { OliveLabelComponent } from './pages/olive-label/olive-label.component';
+import { OlivalComponent } from './pages/olival/olival.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { OliveLabelComponent } from './pages/olive-label/olive-label.component';
     FunkyMotionComponent,
     CocktailsMenuComponent,
     OliveLabelComponent,
+    OlivalComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

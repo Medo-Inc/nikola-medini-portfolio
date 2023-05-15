@@ -14,6 +14,7 @@ import { OliveLabelComponent } from './pages/olive-label/olive-label.component';
 import { PodravkaComponent } from './pages/podravka/podravka.component';
 import { VegetaComponent } from './pages/vegeta/vegeta.component';
 import { VirtualFactoryComponent } from './pages/virtual-factory/virtual-factory.component';
+import { OlivalComponent } from './pages/olival/olival.component';
 
 const routes: Routes = [
   {
@@ -68,6 +69,10 @@ const routes: Routes = [
   {
     path: 'olive-label',
     component: OliveLabelComponent,
+  },
+  {
+    path: 'olival',
+    component: OlivalComponent,
   },
 ];
 
