@@ -21,6 +21,7 @@ import { FunkyMotionComponent } from './pages/funky-motion/funky-motion.componen
 import { CocktailsMenuComponent } from './pages/cocktails-menu/cocktails-menu.component';
 import { OliveLabelComponent } from './pages/olive-label/olive-label.component';
 import { OlivalComponent } from './pages/olival/olival.component';
+import { IhfU19Component } from './pages/ihf-u19/ihf-u19.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { OlivalComponent } from './pages/olival/olival.component';
     CocktailsMenuComponent,
     OliveLabelComponent,
     OlivalComponent,
+    IhfU19Component,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
