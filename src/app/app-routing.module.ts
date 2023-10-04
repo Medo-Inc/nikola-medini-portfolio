@@ -16,6 +16,7 @@ import { VegetaComponent } from './pages/vegeta/vegeta.component';
 import { VirtualFactoryComponent } from './pages/virtual-factory/virtual-factory.component';
 import { OlivalComponent } from './pages/olival/olival.component';
 import { IhfU19Component } from './pages/ihf-u19/ihf-u19.component';
+import { IhfWomensComponent } from './pages/ihf-womens/ihf-womens.component';
 
 const routes: Routes = [
   {
@@ -78,6 +79,10 @@ const routes: Routes = [
   {
     path: 'ihfU19',
     component: IhfU19Component,
+  },
+  {
+    path: 'ihf-womens',
+    component: IhfWomensComponent,
   },
 ];
 

@@ -22,6 +22,7 @@ import { CocktailsMenuComponent } from './pages/cocktails-menu/cocktails-menu.co
 import { OliveLabelComponent } from './pages/olive-label/olive-label.component';
 import { OlivalComponent } from './pages/olival/olival.component';
 import { IhfU19Component } from './pages/ihf-u19/ihf-u19.component';
+import { IhfWomensComponent } from './pages/ihf-womens/ihf-womens.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { IhfU19Component } from './pages/ihf-u19/ihf-u19.component';
     OliveLabelComponent,
     OlivalComponent,
     IhfU19Component,
+    IhfWomensComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
